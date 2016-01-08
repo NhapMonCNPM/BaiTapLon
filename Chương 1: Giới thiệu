@@ -2,34 +2,3 @@ Chương 1
 Lời mở đầu
 Chúng em xin cảm ơn TS.Nguyễn Thanh Hùng đã tận tình giảng dạy và hướng dẫn chúng em hoàn thành bài tập lớn trong môn học Nhập môn Công nghệ phần mềm. Với các đề tài bài tập lớn đã được giao, chúng em đã chọn đề tài phân tích và thiết kế hệ thống quản lý gửi và rút tiền tự động qua máy ATM. Qua đề tài này chúng em được học hỏi, trao đổi kinh nghiệm và làm quen với thực tế trong xây dựng hệ thống thông tin.Trong báo cáo có thể còn có sai sót, chúng em mong nhận được góp ý của thầy để rút kinh nghiệm và hoàn thiện hơn bài tập này.
  
-Chương 1: Giới thiệu đề tài
-1.1. Giới thiệu
-Hệ thống quản lý rút tiền tự động qua máy ATM
-- Máy rút tiền tự động hay máy giao dịch tự động (còn được gọi là ATM, viết tắt của Automated Teller Machine hoặc Automatic Teller Machine) là một thiết bị ngân hàng giao dịch tự động với khách hàng, thực hiện việc nhận dạng khách hàng thông qua thẻ ATM (thẻ ghi nợ, thẻ tín dụng) hay các thiết bị tương thích, và giúp khách hàng kiểm tra tài khoản, rút tiền mặt.
-- Mỗi máy ATM cần có phần cứng được đặt ở nơi công cộng giúp người dùng có thể dễ dàng tiếp cận; phần mềm giúp ngân hàng quản lý, bảo vệ, bảo mật việc rút tiền, đồng thời giúp người sử dụng dùng dịch vụ một cách an toàn và đúng đắn.
-1.2. Mục đích
-- Xây dựng hệ thống ATM trong lĩnh vực ngân hàng để giao dịch với người sử dụng qua hệ thống ATM với chức năng nổi bật như: rút tiền, kiểm tra thông tin tài khoản, số dư tại bất cứ máy ATM nào mà không cần phải tới ngân hàng. Người dùng có thể sử dụng dịch vụ mọi lúc và mọi nơi có hệ thống máy ATM hoạt động.
-1.3. Mô tả
-- Với hệ thống này, ngân hàng có thể giao dịch với khách hàng nhanh chóng, thuận tiện, đồng thời giảm bớt tiêu tốn về mặt nhân lực. Còn người dùng thì có thể sử dụng dịch vụ đơn giản và tiện lợi.
-- Máy ATM dễ dàng sử dụng thông qua giao diện đơn giản. Khách hàng chỉ cần có thẻ và tài khoản hợp lệ là có thể sử dụng máy ATM để giao dịch với ngân hàng.
-1.4. Chú thích
-1.4.1. Nhân lực
-Trong dự án này cần:
-- 1 người làm việc với ngân hàng thống nhất về yêu cầu của phần mềm, phác thảo sơ bộ hệ thống thông qua biểu đồ use-case, biểu đồ hoạt động, …
-- 2 người thiết kế cơ sở dữ liệu + biểu đồ lớp của hệ thống.
-- 3 người lập trình cho server, xây dựng cơ sở dữ liệu; lập trình cho các chức năng và giao diện; lập trình cho bảo mật và liên kết dữ liệu.
-- 1 người thiết kế kiểm thử cho hệ thống.
-- 1 người kiểm thử hệ thống.
-1.4.2. Thời gian
-Dự án tiến hành trong 2 tháng.
--	Thời điểm đầu, thiết kế sơ bộ hệ thống và thống nhất với khách hàng. Cập nhật với khách hàng liên tục để đưa ra kết luận cuối cùng trước khi thiết kế toàn bộ hệ thống ( thực hiện trong khoảng 1 tuần). 
--	Sau khi đã có phác thảo sơ bộ, phân tích và thiết kế toàn bộ hệ thống bao gồm: các sơ đồ hoạt động, sơ đồ lớp, cơ sở dữ liệu, liên kết, … ( thực hiện trong khoảng 1-2 tuần).
--	Lập trình ( thực hiện trong khoảng 2-3 tuần )
--	Thiết kế kiểm thử và kiểm thử ( thực hiện trong khoảng 1 tuần )
-1.4.3. Giá thành
--	Giá thuê server:
--	Giá thuê đội phát triển phần mềm:
-1.4.4. Rủi ro
--	Thời gian thực hiện dự án có thể bị kéo dài do các bước không thể xác định rõ thời gian.
--	Thay đổi về yêu cầu dự án: phía ngân hàng có thể thêm yêu cầu trong lúc thực hiện.
-
